@@ -7,8 +7,7 @@ import com.ed.pojo.Student;
 
 public class MainProject {
 
-	public static void main(String[] args) 
-	{
+	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter your Name: ");
 		
@@ -108,6 +107,7 @@ public class MainProject {
 			}
 		}
 		while(ch!=5);
+
 	}
 
 }

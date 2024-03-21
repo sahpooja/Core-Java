@@ -2,7 +2,7 @@ package com.ed.pojo;
 
 public class Student 
 {
-    private int studentId;
+	private int studentId;
     private String studentName;
     private String studentContact;
     private String studentCity;
