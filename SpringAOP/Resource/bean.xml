@@ -12,5 +12,14 @@
 <bean id="sw" class="com.eb.Swiggy"></bean>
 <bean id="tsw" class="com.eb.TrackSwiggyService"></bean>
 
+<bean id="c1" class="com.eb.Course">
+<property name="cid" value="101" >
+</property>
+<property name="cname" value="Jhon smith" >
+</property>
+</bean>
+<bean id="c2" class="com.eb.TrackCourseDetails"></bean>
+<bean class="org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator"></bean>  
+
 
 </beans>

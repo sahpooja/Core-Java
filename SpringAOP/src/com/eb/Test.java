@@ -14,7 +14,13 @@ public class Test {
 		System.out.println("Calling Method");
 		t.starterMenu();
 		t.vegMenu();
-		t.nonvegMenu();
+		t.nonvegMenu(); 
+		
+/*Course cc=(Course)context.getBean("c1");
+		
+		cc.getCid();
+		cc.getCname();*/
+		
 
 	}
 
